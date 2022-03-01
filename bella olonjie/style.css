@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+}
+
+.entete-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entete-1 img {
+    width: 15rem;
+    height: 7.5rem;
+}
+
+.entete-2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entete-2 div a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.entete-2 div a:hover {
+    color: rgb(248,73,12);
+}
+
+.corps-1 {
+    background-image: linear-gradient(rgba(10 , 0 , 0 , 0.5), rgba(10 , 0 , 0 , 0.5)) ,
+    url('rectangle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 10vh;
+}
+
+@media only screen and (max-width: 1250px) {
+    .corps-1 {
+        background-image: linear-gradient(rgba(10 , 0 , 0 , 0.5), rgba(10 , 0 , 0 , 0.5)) ,
+        url('rectangle.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        padding-top: 5vw;
+    }
+}
+
+#contain {
+    height: 520px;
+}
+
+#foodapp {
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#whystay {
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+@media only screen and (max-width: 890px) {
+    #whystay {
+        margin-top: 0.5vw;
+    }
+}
+
+#download {
+    margin-top: -1rem;
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.corps-1 li {
+    display: inline-block;
+}
+
+.corps-1 button {
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 1.5rem 5rem;
+    margin: 4rem 1vw 2rem 1vw;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 890px) {
+    .corps-1 button {
+        margin: 2rem 0.5vw 1rem 0.5vw;
+    }
+}
+
+#btn1 {
+    margin-left: 7vw;
+}
+
+.corps-1 button:hover {
+    background-color: rgb(248,73,12);
+    border: none;
+}
+
+.corps-1 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.corps-2child {
+    justify-content: center;
+    left: 25vw;
+}
+
+.corps-2 img {
+    position: relative;
+    transform: scale(1.35 , 1.35);
+    clip-path: polygon(56% 14%, 57% 23%, 100% 22%, 100% 70%, 100% 100%, 50% 100%, 20% 100%, 0 100%, 0 21%, 20% 11%);
+    bottom: 25%;
+}
+
+@media only screen and (max-width: 1250px) {
+    .corps-2 img {
+        transform: scale(1 , 1);
+        bottom: 35%;
+        right: 15%;
+    }
+}
+
+.corps-3 {
+    border-top: 3px solid dimgrey;
+    margin: 0 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(43, 41, 41);
+    font-size: 2rem;
+    padding-top: 2rem;
+    white-space : nowrap;
+}
+
+.corps-4-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.corps-4-1 img {
+    width: 35rem;
+    margin-right: 10vw;
+}
+
+@media only screen and (max-width: 1250px) {
+    .corps-4-1 img {
+        transform: scale(0.75 , 0.75);
+    }
+}
+
+.corps-4-2 {
+    position: relative;
+    top:20%
+}
+
+@media only screen and (max-width: 1250px) {
+    .corps-4-2 {
+        font-size: 13px;
+    }
+}
+
+#create {
+    color: rgb(250, 74, 12);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.corps-4-2 div h1 {
+    margin-top: -5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+#anaccount {
+    color: rgb(115, 115, 115);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: -5%;
+}
+
+.corps-5-1 {
+    position: relative;
+    top: 20%;
+}
+
+@media only screen and (max-width: 1250px) {
+    .corps-5-1 {
+        font-size: 13px;
+    }
+}
+
+#explore {
+    color: rgb(250, 74, 12);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.corps-5-1 div h1 {
+    margin-top: -5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 7.5vh;
+}
+
+#shopfor {
+    color: rgb(115, 115, 115);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: -5%;
+}
+
+.corps-5-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.corps-5-2 img {
+    width: 35rem;
+    margin-left: 10vw;
+}
+
+@media only screen and (max-width: 1250px) {
+    .corps-5-2 img {
+        transform: scale(0.75 , 0.75);
+    }
+}
+
+.bas-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bas-1 img {
+    transform: scale(1.25 , 1.25);
+}
+
+.bas-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bas-2 div {
+    display: flex;
+    justify-content: center;
+}
+
+.bas-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}

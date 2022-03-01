@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(10 , 10vw);
+    grid-template-rows: repeat(10 , 20vh);
+}
+
+.container div {
+    height: 10vw;
+    width: 10vh;
+}
+
